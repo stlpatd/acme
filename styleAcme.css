@@ -1,0 +1,124 @@
+.navbar-default {
+  background-color: #d33d2e;
+  border-color: #441505;
+  color: #f4cc77;
+  margin:0;
+  padding:0;
+  
+}
+
+.navbar-default .navbar-brand {
+  padding-top: 4px;
+}
+
+.navbar-default .navbar-nav > li >a {
+  color: #f6e7d4;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #d33d2e;
+  background-color: #f4cc77;
+}
+
+.navbar-default .navbar-nav > li >a:hover,
+.navbar-default .navbar-nav > li >a:focus {
+  color: #f4cc77;
+  background-color: #d33d2e;
+} 
+
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+/*centering poster in jumbotron container*/
+#Poster {
+  width:100%;
+  height: auto;
+  /*vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+    background-color: #d33d2e !important;
+    /*margin: 2% 0 0 10%;*/
+    align-content: center;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    color: #f4cc77 !important;
+}
+
+.site-footer {
+  background-color: #d33d2e;
+  color: #f6e7d4;
+  
+  padding: 1% 2% 0 2%;
+}
+
+.bottom-footer {
+  border-top: 2px solid #f6e7d4;
+  margin-top: 2%;
+  padding-top: 2%;
+  color: #f6e7d4;
+}
+
+.footer-nav {
+  text-align: right;
+  list-style: none;
+}
+
+.footer-nav li {
+  display: inline;  
+}
+
+.footer-nav li:not(:first-child):before {
+  content: '|';
+  padding: 0 2%;
+}
+
+.footer-nav a { 
+  color: #f6e7d4; 
+}
+.footer-nav a:hover { 
+  color: #f4cc77; 
+  text-decoration: none;
+}
+
+.site-footer p {
+  padding-left: 2%;
+}
+
+#products {
+  background-color: #f4cc77;
+  padding-top: 5%;
+ }
+
+img {
+  padding: 0 5% 5% 5%;
+  vertical-align: center;
+}
+/*#row1b {
+  height: 600px;
+  background-color: f4cc77;
+}*/
+
+/*#row2b {
+  margin-top: 5%;
+  background-color: f4cc77;
+}
+
+#row3b {
+  margin-top: 5%;
+  background-color: f4cc77;
+}*/
+
+.jumbotron {
+  align-content: center;
+  margin: 0 10%;
+  padding-top: 10%;
+}
+
